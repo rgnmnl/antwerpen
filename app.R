@@ -59,9 +59,30 @@ ui <-  bootstrapPage(
     leafletOutput('antwerp_map', width = "100%", height = "100%"),
     
     absolutePanel(top = 20, right = 20,
+                  width = 190,
+                  style="opacity: 0.8; z-index:400;",
+                  class = "panel panel-default",
+                  fluidRow(
+                      column(width = 12, align = "center", h4(strong("Our Favorite Spots"))),
+                      column(width = 12, align = "left", 
+                             tags$p(paste0('A curated map of some places we love in Antwerp and places on our still-need-to-visit list.')), 
+                             tags$p(paste0('Web app was created by Reggie and last updated on 05 July 2021.')),
+                             tags$p('Click ',
+                                     tags$a(href='http://withjoy.com/regina-and-korneel',
+                                                              target='_blank',
+                                                              'here'),
+                                     paste0('to return to our website.')
+                                     )
+                             
+                             )
+                  )
+            
+    ),
+    
+    absolutePanel(top = 280, right = 20,
                   # top = 160, right = 10,
                   width = 190,
-                  style="opacity: 0.7; z-index:400;",
+                  style="opacity: 0.8; z-index:400;",
                   class = "panel panel-default",
                   draggable = FALSE, 
                   checkboxGroupInput("marker_type",
