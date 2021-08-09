@@ -54,19 +54,24 @@ my_icons <- awesomeIcons(icon = antwerp$icon,
 
 # Define UI for application
 ui <-  bootstrapPage(
-    tags$style(type = "text/css", "html, body {width:100%;height:100%}"),
-
+    tags$head(
+        tags$style(type = "text/css", "html, body {width:100%;height:100%}"),
+        tags$style('#intro_panel {position: fixed}'),
+        tags$style("#travel_panel {overflow-y: auto; overflow-x: hidden;}")
+    ),
+    
     leafletOutput('antwerp_map', width = "100%", height = "100%"),
     
-    absolutePanel(top = 20, right = 20,
-                  width = 190,
+    absolutePanel(id = "intro_panel",
+                  top = 20, right = 20,
+                  width = 220,
                   style="opacity: 0.8; z-index:400;",
                   class = "panel panel-default",
                   fluidRow(
                       column(width = 12, align = "center", h4(strong("Our Favorite Spots"))),
                       column(width = 12, align = "left", 
                              tags$p(paste0('A curated map of some places we love in Antwerp and places on our still-need-to-visit list.')), 
-                             tags$p(paste0('Web app was created by Reggie and last updated on 05 July 2021.')),
+                             tags$p(paste0('Web app was created by Reggie and last updated on 09 August 2021.')),
                              tags$p('Click ',
                                      tags$a(href='http://withjoy.com/regina-and-korneel',
                                                               target='_blank',
@@ -77,11 +82,50 @@ ui <-  bootstrapPage(
                              )
                   )
             
+    ),    
+    
+    absolutePanel(id = "travel_panel",
+                  top = 240, right = 20,
+                  width = 220, height = 300,
+                  style="opacity: 0.8; z-index:400;",
+                  class = "panel panel-default",
+                  fluidRow(
+                      column(width = 12, align = "center", h4(strong("Travel Tips and Information"))),
+                      column(width = 12, align = "left",
+                             tags$p('As of 09 August 2021, travel to Belgium from the United States is allowed.'),
+                             tags$p('The US is currently listed as a red zone due to the rising cases of the Delta variant, therefore you will need a negative PCR test and a completed', 
+                                    tags$a(href='https://travel.info-coronavirus.be/public-health-passenger-locator-form', 
+                                           target='_blank',
+                                           'Passenger Health Locator Form'),
+                                     'to enter the country.'),
+                             tags$p('An EU Digital COVID Certificate is currently not necessary to enter Belgium for US residents but it is highly recommended to bring your CDC vaccination card on your trip. 
+                                    The majority of EU member states accept the CDC vaccination card as proof of your vaccination status.'),
+                             tags$p('Click ',
+                                    tags$a(href='https://unitedstates.diplomatie.belgium.be/en/coronavirus-covid-19',
+                                           target='_blank',
+                                           'here'),
+                                    paste0('for up-to-date travel requirements for US citizens.')
+                                    ),
+                             tags$p('Click ',
+                                    tags$a(href='https://www.info-coronavirus.be/en/',
+                                           target='_blank',
+                                           'here'),
+                                    paste0('for up-to-date travel information and requirements for Belgium.')
+                                    ),
+                             tags$p('Click ',
+                                    tags$a(href='https://reopen.europa.eu/en',
+                                           target='_blank',
+                                           'here'),
+                                    paste0('for up-to-date travel requirements for all other EU countries.')
+                                    )
+                             )
+                      )
+                        
     ),
     
-    absolutePanel(top = 280, right = 20,
+    absolutePanel(top = 560, right = 20,
                   # top = 160, right = 10,
-                  width = 190,
+                  width = 220,
                   style="opacity: 0.8; z-index:400;",
                   class = "panel panel-default",
                   draggable = FALSE, 
