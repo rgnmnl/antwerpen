@@ -18,7 +18,7 @@ Mission Masala Antwerpen		Food and Drinks	"Dendermondestraat 68, 2018 Antwerpen,
 Izumi		Food and Drinks	"Beeldhouwersstraat 44, 2000 Antwerpen, Belgium"
 Frituur Ellen		Food and Drinks	"Gillisplaats 3, 2000 Antwerpen, Belgium"
 Restaurant Kato		Food and Drinks	"De Vrièrestraat 4, 2000 Antwerpen, Belgium"
-Felix Pakhuis		Food and Drinks	"Godefriduskaai 30, 2000 Antwerpen, Belgium"
+Felix Pakhuis		Venue	"Godefriduskaai 30, 2000 Antwerpen, Belgium"
 Chatleroi		Bars	"Graaf van Hoornestraat 2, 2000 Antwerpen, Belgium"
 Bar Burbure		Bars	"Vlaamsekaai 41, 2000 Antwerpen, Belgium"
 Cafe Kulminator		Bars	"Vleminckveld 32, 2000 Antwerpen, Belgium"

@@ -14,7 +14,7 @@ library(sf)
 library(shinydashboard)
 library(data.table)
 
-map_file <- 'Antwerp.kml'
+map_file <- 'data/Antwerp.kml'
 kml_layers <- st_layers(map_file)
 
 details <- fread("data/antwerp_details.txt", sep = "\t", header = TRUE)
@@ -27,10 +27,10 @@ for(i in 1:length(kml_layers$name)){
 }
 
 antwerp <- Reduce('rbind', category_list) %>%
+  mutate(., type = ifelse(Name == "Felix Pakhuis", "Venue", type)) %>%
   select(., -Description) %>%
   left_join(., details, by = c("Name", "type"))
   
-
 save(antwerp, file = "antwerp_places.RData")
 
 
