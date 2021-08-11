@@ -1,9 +1,11 @@
 library(shiny)
 library(leaflet)
+library(bslib)
 
 navbarPage("Antwerpen", id="main", collapsible = TRUE,
+           # theme = bs_theme(version = 4, bootswatch = "lux"),
            navbarMenu("Menu",
-                      tabPanel("Our Favorite Spots", 
+                      tabPanel("Map", 
                                # tags$style(type = "text/css", "html, body {width:100%;height:100%}"), 
                                # tags$style(type = "text/css", "#map {height: calc(100vh - 80px) !important;}"),
                                leafletOutput('antwerp_map', height = 1000),
@@ -19,33 +21,48 @@ navbarPage("Antwerpen", id="main", collapsible = TRUE,
                                                                 choices = c("Food and Drinks", "Bars", "Hotels", "Sights", "Museums and Galleries", "Shopping"),
                                                                 selected = c("Food and Drinks", "Bars", "Hotels", "Sights", "Museums and Galleries", "Shopping"))
                                ),
-                               absolutePanel(id = "intro_panel",
-                                             draggable = TRUE,
-                                             top = 270, right = 20,
-                                             width = 200, 
-                                             # height = 300,
-                                             fixed = TRUE,
-                                             style="opacity: 0.8; z-index:400;",
-                                             class = "panel panel-default",
-                                             HTML('<button data-toggle="collapse" data-target="#info">Hide</button>'),
-                                             fluidRow(
-                                               column(width = 12, align = "center", h4(strong("Our Favorite Spots"))),
-                                               tags$div(id = 'info',  class="collapse",
-                                                        column(width = 12, align = "left",
-                                                               tags$p(paste0('A curated map of some places we love in Antwerp and places on our still-need-to-visit list.')),
-                                                               tags$p(paste0('Web app was created by Reggie and last updated on 09 August 2021.')),
-                                                               tags$p('Click ',
-                                                                      tags$a(href='http://withjoy.com/regina-and-korneel',
-                                                                             target='_blank',
-                                                                             'here'),
-                                                                      paste0('to return to our website.')
-                                                               )
-                                                        )
-                                               )
-                                             )
-                               ),
+                               # absolutePanel(id = "intro_panel",
+                               #               draggable = TRUE,
+                               #               top = 270, right = 20,
+                               #               width = 200, 
+                               #               # height = 300,
+                               #               fixed = TRUE,
+                               #               style="opacity: 0.8; z-index:400;",
+                               #               class = "panel panel-default",
+                               #               HTML('<button data-toggle="collapse" data-target="#info">Hide</button>'),
+                               #               fluidRow(
+                               #                 column(width = 12, align = "center", h4(strong("Our Favorite Spots"))),
+                               #                 tags$div(id = 'info',  class="collapse",
+                               #                          column(width = 12, align = "left",
+                               #                                 tags$p(paste0('A curated map of some places we love in Antwerp and places on our still-need-to-visit list.')),
+                               #                                 tags$p(paste0('Web app was created by Reggie and last updated on 09 August 2021.')),
+                               #                                 tags$p('Click ',
+                               #                                        tags$a(href='http://withjoy.com/regina-and-korneel',
+                               #                                               target='_blank',
+                               #                                               'here'),
+                               #                                        paste0('to return to our website.')
+                               #                                 )
+                               #                          )
+                               #                 )
+                               #               )
+                               # ),
                       ),
-                      # tabPanel("Data", DT::dataTableOutput("data")),
+                      tabPanel("Info",
+                               fluidRow(
+                                 column(width = 12, align = "center", h3(strong("About"))),
+                                 column(width = 12, align = "left",
+                                        tags$p(paste0('A curated map of some places we love in Antwerp and places on our still-need-to-visit list.')),
+                                        tags$p(paste0('Web app was created by Reggie and last updated on 11 August 2021.')),
+                                        tags$p('Click ',
+                                               tags$a(href='http://withjoy.com/regina-and-korneel',
+                                                      target='_blank',
+                                                      'here'),
+                                               paste0('to return to our website.')
+                                        )
+                                 )
+                               )
+                               
+                      ),
                       tabPanel("Travel Tips",
                                fluidRow(
                                  column(width = 12, align = "center", h3(strong("Travel Tips and Information"))),
@@ -76,22 +93,6 @@ navbarPage("Antwerpen", id="main", collapsible = TRUE,
                                  )
                                )
                       )
-                      # tabPanel("Info",
-                      #          fluidRow(
-                      #            column(width = 12, align = "center", h5(strong("About"))),
-                      #            column(width = 12, align = "left",
-                      #                   tags$p(paste0('A curated map of some places we love in Antwerp and places on our still-need-to-visit list.')),
-                      #                   tags$p(paste0('Web app was created by Reggie and last updated on 09 August 2021.')),
-                      #                   tags$p('Click ',
-                      #                          tags$a(href='http://withjoy.com/regina-and-korneel',
-                      #                                 target='_blank',
-                      #                                 'here'),
-                      #                          paste0('to return to our website.')
-                      #                   )
-                      #            )
-                      #          )
-                      #          
-                      # )
            )
            
 )
