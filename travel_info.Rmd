@@ -1,0 +1,50 @@
+---
+# title: "Travel Tips and Information"
+output: html_document
+---
+
+## Travel Tips and Information
+<i>Last updated: 13-September-2021 (The following guidelines are updated every 2 weeks)</i>
+
+Travel to Belgium from within the European Union or Schengen Zone is currently allowed.
+
+Travel to Belgium from the United States is currently <b>allowed</b>.
+
+The US is currently listed as a red zone due to the rising cases of the Delta variant and travelers coming directly from the US will have to get tested <b>upon arrival</b> and stay in quarantine until a negative result comes in. This requirement does not apply if you are traveling from another country in the European Union or Schengen area.
+
+If you plan on staying in Belgium for 7 days or more, you will need to get tested again on day 7 of your stay.
+
+If you are arriving by plane, there is a test center at Brussels Airport that you can visit upon arrival from a red zone outside of the Schengen area. More information <a href="https://www.brusselsairport.be/en/passengers/the-impact-of-the-coronavirus/covid-19-test-centre-at-brussels-airport">here</a>. 
+
+If you are arriving by train, there is a test center at Antwerp Central Station. More information <a href="https://www.uza.be/antwerp-central-station-testing">here</a>.
+
+You are required to provide proof of vaccination and a <a href="https://travel.info-coronavirus.be/public-health-passenger-locator-form">Passenger Health Locator Form</a> completed within 2 days of your arrival.
+
+### Useful Links
+
+<a href="https://unitedstates.diplomatie.belgium.be/en/coronavirus-covid-19">Belgium Travel Guidance for US nationals</a>
+<br>
+<a href="https://www.info-coronavirus.be/en/">Belgian Coronavirus Information</a>
+<br>
+<a href="https://reopen.europa.eu/en">European Travel Guidance</a>
+
+## Travel to Neighboring Countries
+
+Information below is only valid for <b>vaccinated</b> travelers. If you are not vaccinated, you might be better off coming to Belgium at a different time.
+
+### Netherlands
+Travel is <b>allowed with restrictions</b> for vaccinated travelers<br>
+Mandatory COVID-19 test (<a href="https://www.government.nl/topics/coronavirus-covid-19/visiting-the-netherlands-from-abroad/mandatory-negative-test-results-and-declaration/mandatory-when-travelling-from-a-high-risk-country">See details</a>)<br>
+Mandatory 10-day quarantine (<a href="https://www.government.nl/topics/coronavirus-covid-19/visiting-the-netherlands-from-abroad/self-quarantine/exceptions-mandatory-quarantine">See details for exemptions</a>)
+
+### Germany
+Travel is <b>allowed</b> for vaccinated travelers    
+No proof of COVID-19 test results required for vaccinated travelers   
+No quarantine required for vaccinated travelers
+
+### France
+Travel is <b>allowed</b> for vaccinated travelers    
+No proof of COVID-19 test results required for vaccinated travelers   
+No quarantine required for vaccinated travelers   
+
+Note: France (and/or Paris) has implemented the use of a digital COVID passport. You can find more information <a href="https://www.diplomatie.gouv.fr/en/coming-to-france/coronavirus-advice-for-foreign-nationals-in-france/coronavirus-statements/article/applying-for-a-covid-certificate-if-you-were-vaccinated-abroad-procedure-for"> here</a>.

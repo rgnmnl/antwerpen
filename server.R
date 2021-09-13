@@ -17,6 +17,7 @@ library(forcats)
 library(tidyr)
 library(ggrepel)
 library(sf)
+library(markdown)
 
 
 shinyServer(function(input, output) {
@@ -84,5 +85,9 @@ shinyServer(function(input, output) {
         # onClick=JS("function(btn, map) { map.setView(new L.LatLng(51.206787,4.3993921)); }")))
         onClick=JS("function(btn, map) { map.setView(new L.LatLng(51.2279206,4.4077035)); }")))
   })
+  
+  # output$travel_tips <- renderUI({
+  #   includeHTML("travel_info.Rmd")
+  # })
 
 })
