@@ -521,6 +521,15 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>Ni Shifu</name>
+        <styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            4.4193473,51.2189235,0
+          </coordinates>
+        </Point>
+      </Placemark>
     </Folder>
     <Folder>
       <name>Bars</name>
