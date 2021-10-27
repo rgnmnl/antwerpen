@@ -4,13 +4,15 @@ output: html_document
 ---
 
 ## Travel Tips and Information
-<i>Last updated: 13-September-2021 (The following guidelines are updated every 2 weeks)</i>
+<i>Last updated: 27-October-2021 (The following guidelines are updated every 2 weeks)</i>
 
 Travel to Belgium from within the European Union or Schengen Zone is currently allowed.
 
 Travel to Belgium from the United States is currently <b>allowed</b>.
 
-The US is currently listed as a red zone due to the rising cases of the Delta variant and travelers coming directly from the US will have to get tested <b>upon arrival</b> and stay in quarantine until a negative result comes in. This requirement does not apply if you are traveling from another country in the European Union or Schengen area.
+Fully vaccinated travelers coming from United States with a negative COVID-19 PCR test result are not required to quarantine on arrival. This test must be taken a maximum of 72 hours before arrival in Belgium. 
+
+If you are not tested prior to arriving to Belgium, travelers coming directly from the US will have to get tested <b>upon arrival</b> and stay in quarantine until a negative result comes in. This requirement does not apply if you are traveling from another country in the European Union or Schengen area.
 
 If you plan on staying in Belgium for 7 days or more, you will need to get tested again on day 7 of your stay.
 
