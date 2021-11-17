@@ -37,17 +37,16 @@ Many activities in Belgium require proof of vaccination. You can convert your CD
 Information below is only valid for <b>vaccinated</b> travelers. If you are not vaccinated, you might be better off coming to Belgium at a different time.
 
 ### Netherlands
-Travel is <b>allowed with restrictions</b> for vaccinated travelers<br>
-Mandatory COVID-19 test (<a href="https://www.government.nl/topics/coronavirus-covid-19/visiting-the-netherlands-from-abroad/mandatory-negative-test-results-and-declaration/mandatory-when-travelling-from-a-high-risk-country">See details</a>)<br>
-Mandatory 10-day quarantine (<a href="https://www.government.nl/topics/coronavirus-covid-19/visiting-the-netherlands-from-abroad/self-quarantine/exceptions-mandatory-quarantine">See details for exemptions</a>)
+Travel is <b>allowed</b> for vaccinated travelers<br>
+Schedule a daily rapid COVID test <a href="https://testenvoortoegang.org/">here</a><br>
 
 ### Germany
-Travel is <b>allowed</b> for vaccinated travelers    
+Travel is <b>allowed</b> for vaccinated travelers   
 No proof of COVID-19 test results required for vaccinated travelers   
 No quarantine required for vaccinated travelers
 
 ### France
-Travel is <b>allowed</b> for vaccinated travelers    
+Travel is <b>allowed</b> for vaccinated travelers only  
 No proof of COVID-19 test results required for vaccinated travelers   
 No quarantine required for vaccinated travelers   
 
