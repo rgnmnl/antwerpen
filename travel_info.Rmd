@@ -4,7 +4,7 @@ output: html_document
 ---
 
 ## Travel Tips and Information
-<i>Last updated: 27-October-2021 (The following guidelines are updated every 2 weeks)</i>
+<i>Last updated: 17-November-2021 (The following guidelines are updated every 2 weeks)</i>
 
 Travel to Belgium from within the European Union or Schengen Zone is currently allowed.
 
@@ -21,6 +21,8 @@ If you are arriving by plane, there is a test center at Brussels Airport that yo
 If you are arriving by train, there is a test center at Antwerp Central Station. More information <a href="https://www.uza.be/antwerp-central-station-testing">here</a>.
 
 You are required to provide proof of vaccination and a <a href="https://travel.info-coronavirus.be/public-health-passenger-locator-form">Passenger Health Locator Form</a> completed within 2 days of your arrival.
+
+Many activities in Belgium require proof of vaccination. You can convert your CDC vaccination card into a Belgian Covid Safe Ticket <a href = "https://coronavirus.brussels/en/belgian-cst-for-foreigners/">here</a>. This CST is only valid within Belgium. Please check other countries' requirements if you are traveling outside of Belgium.
 
 ### Useful Links
 
