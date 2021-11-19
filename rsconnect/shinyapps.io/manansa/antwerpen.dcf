@@ -5,10 +5,10 @@ account: manansa
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 4473194
-bundleId: 5184350
+bundleId: 5261740
 url: https://manansa.shinyapps.io/antwerpen/
-when: 1635373079.44963
-lastSyncTime: 1635373079.44965
+when: 1637148237.71808
+lastSyncTime: 1637148237.71809
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: 1_DataImport.R|data/antwerp_details.txt|data/Antwerp.kml|deprecated/app.R
